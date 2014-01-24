@@ -5,8 +5,8 @@ This is a sample application for using [carrierwave_encrypter_decrypter](https:/
 
 **Install**
 
-  git clone git@github.com:ankit8898/carrierwave_encrypter_decrypter_example.git
+     git clone git@github.com:ankit8898/carrierwave_encrypter_decrypter_example.git
 
-  bundle install
+     bundle install
 
-  bundle exec rake db:create && bundle exec rake db:migrate
+     bundle exec rake db:create && bundle exec rake db:migrate
