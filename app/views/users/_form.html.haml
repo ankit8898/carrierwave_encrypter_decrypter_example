@@ -1,0 +1,6 @@
+= form_for @user, :html => {:multipart => true} do |f|
+  %p
+    %label My Avatar
+    = f.file_field :avatar
+    = f.hidden_field :avatar_cache
+  = f.submit 'Submit',class: :button

@@ -1,0 +1,13 @@
+%h1 Listing users
+%table
+  %thead
+    %tr
+      %th Avatar
+      %th
+  %tbody
+    - @users.each do |user|
+      %tr
+        %td= user.avatar
+        %td= link_to 'Download', download_user_path(user)
+%br
+= link_to 'New User', new_user_path,class: :button
