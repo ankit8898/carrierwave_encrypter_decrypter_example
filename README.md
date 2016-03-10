@@ -4,7 +4,10 @@ This is a sample application for using [carrierwave_encrypter_decrypter](https:/
 
 **Install**
 
-     git clone git@github.com:ankit8898/carrierwave_encrypter_decrypter_example.git
+
+     git clone https://github.com/ankit8898/carrierwave_encrypter_decrypter_example.git
+     
+     cd carrierwave_encrypter_decrypter_example/
 
      bundle install
 
